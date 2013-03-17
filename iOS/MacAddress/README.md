@@ -4,7 +4,7 @@
 
 This is the plugins to help you get the iOS WIFI MAC address 
 
-The UDID API is deprecated in iOS 5. To get a unique identifier, maybe you need to turn to iPhones' MAC address instead.
+The UDID API is deprecated in iOS 5. To get a unique identifier, maybe you need to turn to iPhones/iPad/iPod touch' MAC address instead.
 
 
 <h1>INSTALL</h1>
