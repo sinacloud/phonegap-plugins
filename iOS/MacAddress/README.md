@@ -25,9 +25,9 @@ Add this:
 For older version, please modify the PhoneGap.plist file of your application. Under the key "Plugins" add another one with key name
 Macaddress and value Macaddress. 
 
-<h1> How to user</h1>
+<h1> How to use</h1>
 ==========================================
-Invoke that by following command in your javascript:
+Get the WIFI MAC address by following script :
 
 <pre>
 plugins.macaddress.getMacAddress(function(response){
@@ -36,3 +36,5 @@ plugins.macaddress.getMacAddress(function(response){
                                     alert('Error:'+errorMsg);
                                   });
 </pre>
+
+Voila !~
