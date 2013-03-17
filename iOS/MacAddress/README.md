@@ -1,0 +1,29 @@
+This is a plugins to help you get the WIFI MAC address.
+
+The UDID API is deprecated in iOS 5. To get a unique identifier, maybe you need to turn to iPhones' MAC address instead.
+
+
+<h1>INSTALL</h1>
+=========================
+
+1. Drag the Macaddress.h, Macaddress.m into the "Plugins" folder in Xcode.
+
+2. Attach the "macaddress.js" to your www folder, and invoke that by following command in your javascript:
+
+[code]
+plugins.macaddress.getMacAddress(function(response){
+                                    alert('MAC Address:'+response);
+                                  },function(errorMsg){
+                                    alert('Error:'+errorMsg);
+                                  });
+[/code]
+
+3. Don't forget to enable the plugins in Cordova config.xml (for Cordova 2.3 or higher)
+
+Add this:
+
+<plugin name="Macaddress" value="Macaddress" />
+
+
+or Modify the PhoneGap.plist file of your application. Under the key "Plugins" add another one with key name
+Macaddress and value Macaddress. (For older version)
